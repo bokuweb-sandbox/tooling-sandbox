@@ -1,3 +1,8 @@
 {
-  "extends": ["tslint:latest", "tslint-eslint-rules", "tslint-config-prettier"]
+  "extends": ["tslint:latest", "tslint-eslint-rules", "tslint-config-prettier"],
+  "rules": {
+    "interface-name": false,
+    "no-empty-interface": false,
+    "ordered-imports": false,
+  }
 }

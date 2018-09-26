@@ -20,12 +20,13 @@ module.exports = {
   entry: ["./src/index.tsx"],
   output: {
     path: `${__dirname}/dist`,
-    historyApiFallback: true,
     filename: "[name].js"
   },
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: path.join(__dirname, "public"),
     compress: true,
+    historyApiFallback: true,
+    disableHostCheck: true,
     port: 9000
   },
   module: {
@@ -38,10 +39,10 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      inject: true,
-      template: path.join(process.cwd(), "public", "index.html")
-    })
+    // new HtmlWebpackPlugin({
+    //   inject: true,
+    //   template: path.join(process.cwd(), "public", "index.html")
+    // })
   ],
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".json"]

@@ -20,8 +20,12 @@
   },
   "homepage": "https://github.com/bokuweb-sandbox/tooling-sandbox#readme",
   "dependencies": {
+    "@types/history": "^4.7.0",
+    "history": "^4.7.2",
+    "monocle-ts": "^1.2.0",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-tooling": "0.20.1"
   },
   "devDependencies": {
     "@types/react": "^16.4.14",
