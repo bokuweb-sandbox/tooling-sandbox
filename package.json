@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/bokuweb-sandbox/tooling-sandbox/issues"
   },
-  "homepage": "https://github.com/bokuweb-sandbox/tooling-sandbox#readme"
+  "homepage": "https://github.com/bokuweb-sandbox/tooling-sandbox#readme",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  }
 }
